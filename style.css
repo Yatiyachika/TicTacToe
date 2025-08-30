@@ -3,10 +3,10 @@
     text-align: center;
 }
 .msg-Container{
-    height: 40vmin;
+    height: 30vmin;
 }
 #msg{
-    font-size: 80px;
+    font-size: 5vmin;
     color: rgb(15, 219, 32);
 }
 #newGame{
@@ -29,25 +29,27 @@ h1{
 }
 .main{
     width: 900px;
-    height: 300px;
+    height: 70vh;
     align-items: center;
-    margin: 5vmin 0px 0px 10vh;
+    display: flex;
 }
 .row{
-    width: 300px;
-    height: 100px;
+    width: 60vmin;
+    height: 60vmin;
     gap: 10px;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .button{
-    width: 80px;
-    height: 80px;
+    width: 18vmin;
+    height: 18vmin;
     border-radius: 8px;
     box-shadow: 3px 2px #353531;
     cursor: pointer;
     background-color: #F8F1FF;
-    font-size: 70px;
+    font-size: 8vmin;
     color: red;
     text-align: center;
 }
@@ -63,6 +65,7 @@ h1{
     border-radius: 8px;
 
 }
+
 
 
 
